@@ -1,0 +1,158 @@
+@charset "UTF-8";
+@font-face{
+		font-family: "HelveticaNeue";
+		src: url("resources/font/helveticaneue-thin.woff") format("woff"),
+		url("resources/font/helvetica-neue-thin.woff2");
+}
+
+/* animations */ 
+@font-face {
+		  font-family: "aBigDeal";
+		  src: url("resources/font/BigDeal.woff") format("woff"),
+		  url("resources/font/BigDeal.woff2");
+}
+
+h2{
+	font-family: "aBigDeal";
+	font-size: 50px;
+	color: black;
+	float: left;
+	margin-left: 10%;
+}
+
+h3{
+	font-family: "aBigDeal";
+	font-size: 25px;
+	color: black;
+	margin-left: 10px;
+	white-space:nowrap;
+	letter-spacing:2px;
+}
+
+h4{
+	font-family: "aBigDeal";
+	font-size: 15px;
+	line-height: 1.7em;
+	margin-left: 5px;
+	letter-spacing:1px;
+}
+
+	
+a{
+	font-family: "aBigDeal";
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	margin-right: 30px;
+}
+a:hover{
+	text-decoration: none;
+	color: red;
+	cursor: pointer;
+}
+	
+
+.showHeader{
+	font-family: "aBigDeal";
+	font-size: 15px;
+	line-height: 1.7em;
+	margin-left: 5px;
+	letter-spacing:1px;
+	text-decoration:none;
+}
+.showHeader:hover{
+	color:#c70100;
+}
+
+
+table{
+	float:right;
+	margin-right:3%;
+	margin-top:10px;
+	border: 2px dotted;
+}
+
+th{
+	padding: 10px 20px;
+}
+
+#title{
+	position:relative;
+	margin-top:120px;
+}
+
+#audio{
+	width: 50%;
+	z-index:-1;
+}
+
+
+#songTitle{
+	margin-left: 20px;
+	font-weight: 300;
+	margin-right: 20px;
+}
+
+#shows{
+	float:left;
+	border: 1px solid black;
+	width:100%;
+	margin-top:30px;
+}
+#shows th{
+	padding: 30px 80px;
+	width: 40%;
+}
+#shows th h4{
+	font-weight: 900;
+}
+
+#show1, #showTwo, #showThree{
+	float:left;
+	margin-bottom: 90px;
+	padding-left: 80px;
+	width:100%;
+}
+
+#show1{
+	display: block;
+}
+#showTwo, #showThree{ 
+	display: none;
+	
+}
+
+.song:first-child{
+	margin-top:0px;
+}
+
+.song{
+	margin-top: 90px;
+	display:flex;
+	margin-bottom: 100px;
+}
+
+.titleAndVideo{
+	width:50%;
+	margin-right: 0px;
+}
+
+.session{
+	width:40%;
+	margin-top: 100px;
+	margin-left:100px;
+	vertical-align:middle;
+}
+
+iframe{
+	margin-top: 50px;
+	border-radius:20px;
+}
+
+
+#sorryMessage{
+	margin-top:200px;
+	margin-bottom: 500px;
+	line-height:3em;
+}
+

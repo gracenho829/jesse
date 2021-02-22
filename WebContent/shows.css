@@ -1,0 +1,155 @@
+@font-face{
+		font-family: "HelveticaNeue";
+		src: url("resources/font/helveticaneue-thin.woff") format("woff"),
+		url("resources/font/helvetica-neue-thin.woff2");
+}
+
+/* animations */ 
+@font-face {
+		  font-family: "aBigDeal";
+		  src: url("resources/font/BigDeal.woff") format("woff"),
+		  url("resources/font/BigDeal.woff2");
+}
+
+		
+@keyframes fadein {
+	    from {
+	        opacity:0;
+	    }
+	    to {
+	        opacity:1;
+	    }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+	    from {
+	        opacity:0;
+	    }
+	    to {
+	        opacity:1;
+	    }
+}
+	
+	
+@-moz-keyframes fadein { /* Firefox */
+	    from {
+	        opacity:0;
+	    }
+	    to {
+	        opacity:1;
+	    }
+}
+
+
+
+/* elements */
+
+
+h2{
+	font-family: "aBigDeal";
+	font-size: 75px;
+	color:white;
+	text-align:right;
+	margin-top: 120px;
+	margin-right: 40px;
+	line-height:100px;
+	
+}
+
+h3{
+	font-family: "aBigDeal";
+	font-size: 35px;
+	color: white;
+	
+	
+}
+
+h4{
+	font-family: "aBigDeal";
+	font-size: 20px;
+	color:white;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align:center;
+	padding:0px;
+}
+.shows{
+	display:block;
+	width:100%;
+	height: 100%;
+	background-color:white;
+	margin: 0;
+	position:absolute;
+	bottom:0;
+}
+
+.showImage{
+	width:33.33%;
+	height: 100%;
+	margin: 0;
+}
+
+#show1{
+	background-image:url("resources/posters/show1.png");
+	background-size: 150% 130%;
+	object-fit: cover;
+	float:left;
+	transition: filter 1s;
+	filter: brightness(50%);
+}
+
+#show2{
+	background-image:url("resources/posters/show2.JPG");
+	background-size: 150% 130%;
+	object-fit: cover;
+	float:left;
+	filter: brightness(50%);
+	transition: filter 1s;
+}
+
+#show3{
+	background-image:url("resources/posters/show3.png");
+	background-size: 240% 220%;
+	object-fit: cover;
+	float:left;
+	filter: brightness(50%);
+	transition: filter 1s;
+}
+
+#show1:hover, #show2:hover, #show3:hover{
+	 filter: brightness(100%);
+	 cursor:pointer;
+}
+
+
+
+
+#merryChristmas, #fallInLove, #today{
+	display:none;
+}
+#merryChristmas img, #fallInLove img, #today img{
+	position: absolute;
+	top: 15%;
+	left: 10%;
+	height: 70vh;
+}
+
+.songList{
+	float:right;
+	width: 50%;
+	position:absolute;
+	top: 20%;
+	right: 10%;
+	background-color:black;
+	text-align:center;
+}
+.songList h2{
+	font-size: 50px;
+	line-height: 1.2em;
+	text-align:center;
+	margin:0;
+}
+.songList h4{
+	line-height: 1.2em;
+	font-family:  HelveticaNeue;
+}

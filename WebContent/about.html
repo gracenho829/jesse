@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>About JESSE</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href = '//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type = 'text/css'>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel = "stylesheet" type = "text/css" href = "about.css" />
+ <script>
+ function expand(string){
+	 var name = document.getElementById(string);
+	 var members = document.getElementById('members');
+	 var scroll = document.getElementById('scroll');
+	 var part = document.getElementById('theBand');
+	 
+	var gracenho = document.getElementById('gracenho');
+	 var wooju = document.getElementById('wooju');
+	 var handong = document.getElementById('handong');
+	 var geon = document.getElementById('geon');
+	 var jongseo = document.getElementById('jongseo');
+	 var yeeun = document.getElementById('yeeun');
+	 var byunghoon = document.getElementById('byunghoon');
+	 
+	
+	members.style.display = 'none';
+	scroll.style.display = 'block';
+	name.style.display = 'block';
+	
+	switch (string){
+		case 'gracenho':
+			part.innerHTML = 'Vocal';
+			wooju.style.display = 'none';
+			handong.style.display = 'none';
+			yeeun.style.display = 'none';
+			byunghoon.style.display = 'none';
+			geon.style.display = 'none';
+			jongseo.style.display = 'none';
+			break;
+		case 'wooju':
+			part.innerHTML = 'Keyboard';
+			gracenho.style.display = 'none';
+			handong.style.display = 'none';
+			yeeun.style.display = 'none';
+			byunghoon.style.display = 'none';
+			geon.style.display = 'none';
+			jongseo.style.display = 'none';
+			break;
+		case 'handong':
+			part.innerHTML = 'Bass';
+			gracenho.style.display = 'none';
+			wooju.style.display = 'none';
+			yeeun.style.display = 'none';
+			byunghoon.style.display = 'none';
+			geon.style.display = 'none';
+			jongseo.style.display = 'none';
+			break;
+		case 'yeeun':
+			part.innerHTML = 'Saxophone';
+			gracenho.style.display = 'none';
+			wooju.style.display = 'none';
+			handong.style.display = 'none';
+			byunghoon.style.display = 'none';
+			geon.style.display = 'none';
+			jongseo.style.display = 'none';
+			break;
+		case 'byunghoon':
+			part.innerHTML = 'Trumpeter';
+			gracenho.style.display = 'none';
+			wooju.style.display = 'none';
+			handong.style.display = 'none';
+			yeeun.style.display = 'none';
+			geon.style.display = 'none';
+			jongseo.style.display = 'none';
+			break;
+		case 'geon':
+			part.innerHTML = 'Guitar';
+			gracenho.style.display = 'none';
+			wooju.style.display = 'none';
+			handong.style.display = 'none';
+			yeeun.style.display = 'none';
+			byunghoon.style.display = 'none';
+			jongseo.style.display = 'none';
+			break;
+		case 'jongseo':
+			part.innerHTML = 'Drums';
+			gracenho.style.display = 'none';
+			wooju.style.display = 'none';
+			handong.style.display = 'none';
+			yeeun.style.display = 'none';
+			byunghoon.style.display = 'none';
+			geon.style.display = 'none';
+			break;
+		default:
+			part.innerHTML = 'error';
+			gracenho.style.display = 'none';
+			wooju.style.display = 'none';
+			handong.style.display = 'none';
+			yeeun.style.display = 'none';
+			byunghoon.style.display = 'none';
+			geon.style.display = 'none';
+			jongseo.style.display = 'none';
+			break;
+	}
+	part.style.fontSize = '60px';
+	
+ }
+ </script>
+</head>
+<style>
+h1,h2,h3,h4,a{
+font-family: "aBigDeal";
+}
+</style>
+<body>
+	<div id="overlay"></div>
+	<div id = animation>
+			<div class="whiteRectangle"></div>
+			<div id="trapezoid">
+			<h2>ABOUT <br> THE BAND</h2>
+			<p>JESSE is a band with their musical aspirations rooted in mainly jazz, funk, and any other crazy music that includes insane piano solos and trumpet-blowing nonsense. The band has its humble beginnings in the outskirts of Pohang in Handong Global University, where there is literally nothing to do except bang on the drums and blow the sax until your lungs run dry.
+			This accounts for why the band was so successful comparatively to other "musical" ensembles located in Pohang and in fact, any other bands in Korea (without pertaining to bands pursuing a musical degree). 
+			Members of JESSE are also very confident in their skills (except for probably the vocalist) and like to brag about how fast their fingers move or about how powerful a solo was; though ironically, they only do this amongst themselves and do not protrude these remarks to other standerbys, retaining their natural humble ambience.
+			If you wish to contact JESSE in regards to mini concerts and shows, please contact anyone below except the female members as they were taught well on how to deal with stranger danger and will not respond to any DMs or messages</p>
+			</div>
+			
+			<div class = nav>
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			    <div class="navbar-nav">
+			     <a class="nav-item nav-link" href="index.html" >HOME</a>
+			      <a class="nav-item nav-link active" href="about.html" > ABOUT <span class="sr-only">(current)</span></a>
+			      <a class="nav-item nav-link" href="shows.html" >SHOWS</a>
+			      <a class="nav-item nav-link" href="music.jsp" >MUSIC</a>
+			      <a class="nav-item nav-link disabled" href="photos.html" >PHOTOS</a>
+			    </div>
+			  </div>
+			</nav>
+			</div>
+			
+			
+<!--      3x3 grid list of members        -->	
+
+
+		<div class="memberPage" style = "margin-bottom:0;">
+			<hr style = "border-top: 5px double #ffffff;">
+			<h2 id = "theBand">The Band</h2>
+			<div class = "members" id="members">
+			
+				<div class = "member" onclick = "expand('gracenho')">
+					<img src = "resources/members/gracenho.jpeg" class = "memberProfile" style = "width:300px; height:330px;">
+					<h3>Grace Nho</h3>
+					<p>Vocal</p>
+				</div>
+				
+				<div class = "member" onclick = "expand('wooju')">
+					<img src = "resources/members/wooju.jpeg" class = "memberProfile" style = "width:300px; height:330px;">
+					<h3>WooJu So</h3>
+					<p>Keyboard</p>
+				</div>
+				
+				<div class = "member" onclick = "expand('geon')">
+					<img src = "resources/members/cheonggeon.png" class = "memberProfile" style = "width:300px; height:330px;">
+					<h3>Geon Cheong</h3>
+					<p>Guitar</p>
+				</div>
+				
+				<div class = "member" onclick = "expand('handong')">
+					<img src = "resources/members/handong.png" class = "memberProfile" style = "width:300px; height:330px;">
+					<h3>Handong Ryu</h3>
+					<p>Bass</p>
+				</div>
+				
+				<div class = "member" onclick = "expand('jongseo')">
+					<img src = "resources/members/jongseo.png" class = "memberProfile" style = "width:300px; height:330px;">
+					<h3>JongSeo Won</h3>
+					<p>Drums</p>
+				</div>
+				
+				<div class = "member" onclick = "expand('yeeun')">
+					<img src = "resources/members/yeeun.png" class = "memberProfile" style = "width:300px; height:330px;">
+					<h3>Ye Eun Jeong</h3>
+					<p>Saxophone</p>
+				</div>
+				
+				<div class = "member" onclick = "expand('byunghoon')">
+					<img src = "resources/members/byunghoon.png" class = "memberProfile" style = "width:300px; height:330px;">
+					<h3>ByungHoon Kim</h3>
+					<p>Trumpet</p>
+				</div>
+			</div>
+			
+			
+			
+<!--        expandable member information      -->			
+			
+			<div class = "memberIdentity" id = "gracenho">
+				<img src = "resources/members/gracenho.jpeg" class = "memberProfile" style = "width:300px; height:330px;">
+				<div class="rightAngle"></div>
+				<div id = "rectangle">
+					<div id="overlay2"></div>
+					<h2>Career</h2>
+					<p>Impromptu 2am Vocal</p>
+					<p>JESSE Vocal</p>
+					<h2>Discography</h2>
+					<p><em>MERRY CHRISTMAS IN HANDONG</em></p>
+					<p><em>I FALL IN LOVE TOO EASILY</em></p>
+					<p><em>ㅇㄴㅇㅇ?</em></p>
+				</div>
+			
+			</div>
+			
+			<div class = "memberIdentity" id = "wooju">
+				<img src = "resources/members/wooju.jpeg" class = "memberProfile" style = "width:300px; height:330px;">
+				<div class="rightAngle"></div>
+				<div id = "rectangle" style= "background-image: url('resources/memberIdentity/wooju-1.jpeg');">
+					<div id="overlay2"></div>
+					<h2>Career</h2>
+					<p>Praise Keyboard</p>
+					<p>Havana in Handong Keyboard</p>
+					<p>RFJ Keyboard</p>
+					<p>JESSE Keyboard</p>
+					<h2>Discography</h2>
+					<p><em>MERRY CHRISTMAS IN HANDONG</em></p>
+					<p><em>I FALL IN LOVE TOO EASILY</em></p>
+					<p><em>ㅇㄴㅇㅇ?</em></p>
+				</div>
+			</div>
+			
+			<div class = "memberIdentity" id = "geon">
+				<img src = "resources/members/cheonggeon.png" class = "memberProfile" style = "width:300px; height:330px;">
+				<div class="rightAngle"></div>
+				<div id = "rectangle" style= "background-image: url('resources/memberIdentity/geon-1.jpeg');">
+					<div id="overlay2"></div>
+					<h2>Career</h2>
+					<p>Impromptu 2am Acoustic Guitar</p>
+					<p>JESSE Guitar</p>
+					<h2>Discography</h2>
+					<p><em>MERRY CHRISTMAS IN HANDONG</em></p>
+					<p><em>I FALL IN LOVE TOO EASILY</em></p>
+					<p><em>ㅇㄴㅇㅇ?</em></p>
+				</div>
+			</div>
+			
+			<div class = "memberIdentity" id = "handong">
+				<img src = "resources/members/handong.png" class = "memberProfile" style = "width:300px; height:330px;">
+				<div class="rightAngle"></div>
+				<div id = "rectangle" style= "background-image: url('resources/memberIdentity/handong-1.jpeg');">
+					<div id="overlay2"></div>
+					<h2>Career</h2>
+					<p>Impromptu 2am Bass</p>
+					<p>RFJ Bass</p>
+					<p>JESSE Bass</p>
+					<h2>Discography</h2>
+					<p><em>MERRY CHRISTMAS IN HANDONG</em></p>
+					<p><em>I FALL IN LOVE TOO EASILY</em></p>
+					<p><em>ㅇㄴㅇㅇ?</em></p>
+				</div>
+			</div>
+			
+			<div class = "memberIdentity" id = "jongseo">
+				<img src = "resources/members/jongseo.png" class = "memberProfile" style = "width:300px; height:330px;">
+				<div class="rightAngle"></div>
+				<div id = "rectangle" style= "background-image: url('resources/memberIdentity/jongseo-1.jpeg');">
+					<div id="overlay2"></div>
+					<h2>Career</h2>
+					<p>Praise Drums</p>
+					<p>중앙제일밴드 Drums</p>
+					<p>Havana in Handong Percussion</p>
+					<p>RFJ Drums</p>
+					<p>JESSE Drums & Percussion</p>
+					<h2>Discography</h2>
+					<p><em>MERRY CHRISTMAS IN HANDONG</em></p>
+					<p><em>I FALL IN LOVE TOO EASILY</em></p>
+					<p><em>ㅇㄴㅇㅇ?</em></p>
+				</div>
+			</div>
+			
+			<div class = "memberIdentity" id = "yeeun">
+				<img src = "resources/members/yeeun.png" class = "memberProfile" style = "width:300px; height:330px;">
+				<div class="rightAngle"></div>
+				<div id = "rectangle" style= "background-image: url('resources/memberIdentity/yeeun-1.jpeg');">
+					<div id="overlay2"></div>
+					<h2>Career</h2>
+					<p>Impromptu 2am Saxophone</p>
+					<p>Havana in Handong Saxophone</p>
+					<p>RFJ Saxophone</p>
+					<p>JESSE Saxophone</p>
+					<h2>Discography</h2>
+					<p><em>ㅇㄴㅇㅇ?</em></p>
+				</div>
+			</div>
+			
+			<div class = "memberIdentity" id = "byunghoon">
+				<img src = "resources/members/byunghoon.png" class = "memberProfile" style = "width:300px; height:330px;">
+				<div class="rightAngle"></div>
+				<div id = "rectangle" style= "background-image: url('resources/memberIdentity/byunghoon-1.jpg'); background-size: auto 100vh;">
+					<div id="overlay2"></div>
+					<h2>Career</h2>
+					<p>Impromptu 2am Trumpet & Vocal</p>
+					<p>LIPS Founder & Trumpet</p>
+					<p>251 Trumpet</p>
+					<p>RFJ Trumpet & Vocal</p>
+					<p>JESSE Trumpet & Vocal</p>
+					<h2>Discography</h2>
+					<p><em>MERRY CHRISTMAS IN HANDONG</em></p>
+					<p><em>I FALL IN LOVE TOO EASILY</em></p>
+					<p><em>ㅇㄴㅇㅇ?</em></p>
+				</div>
+			</div>
+
+<!--        scroll member         -->		
+
+	
+			<div class = "scrollmenu" id="scroll" style="display:none; margin-top:0">
+				<br>
+				<div class = "member2" style="margin-left: 100px;"onclick = "expand('gracenho')">
+					<img src = "resources/members/gracenho.jpeg" class = "memberProfile" style = "width:150px; height:180px;" >
+					<h3>Grace Nho</h3>
+					<p>Vocal</p>
+				</div>
+				
+				<div class = "member2" onclick = "expand('wooju')">
+					<img src = "resources/members/wooju.jpeg" class = "memberProfile" style = "width:150px; height:180px;">
+					<h3>WooJu So</h3>
+					<p>Keyboard</p>
+				</div>
+				
+				<div class = "member2" onclick = "expand('geon')">
+					<img src = "resources/members/cheonggeon.png" class = "memberProfile" style = "width:150px; height:180px;">
+					<h3>Geon Cheong</h3>
+					<p>Guitar</p>
+				</div>
+				
+				<div class = "member2" onclick = "expand('handong')" >
+					<img src = "resources/members/handong.png" class = "memberProfile" style = "width:150px; height:180px;">
+					<h3>Handong Ryu</h3>
+					<p>Bass</p>
+				</div>
+				
+				<div class = "member2" onclick = "expand('jongseo')">
+					<img src = "resources/members/jongseo.png" class = "memberProfile" style = "width:150px; height:180px;">
+					<h3>JongSeo Won</h3>
+					<p>Drum</p>
+				</div>
+				
+				<div class = "member2" onclick = "expand('yeeun')">
+					<img src = "resources/members/yeeun.png" class = "memberProfile" style = "width:150px; height:180px;">
+					<h3>Ye Eun Jeong</h3>
+					<p>Saxophone</p>
+				</div>
+				
+				<div class = "member2" onclick = "expand('byunghoon')">
+					<img src = "resources/members/byunghoon.png" class = "memberProfile" style = "width:150px; height:180px;">
+					<h3>ByungHoon Kim</h3>
+					<p>Trumpet</p>
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+
+</body>
+</html>
